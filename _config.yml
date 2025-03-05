@@ -1,1 +1,10 @@
-theme: jekyll-theme-primer
+
+title: "My Jekyll Site"
+description: "A simple Jekyll blog"
+baseurl: "" # Leave blank if deploying to root
+url: "https://shingareom.github.io/FishKar"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
