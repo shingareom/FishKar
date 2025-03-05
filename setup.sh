@@ -2,8 +2,8 @@
 #!/bin/bash
 
 # Define URLs for fish config and neovim config
-FISH_CONFIG_URL="YOUR_FISH_CONFIG_URL"
-NEOVIM_CONFIG_URL="YOUR_NEOVIM_CONFIG_URL"
+FISH_CONFIG_URL="https://shingareom.github.io/FishKar/config.fish"
+NEOVIM_CONFIG_URL="https://shingareom.github.io/FishKar/nvim.zip"
 
 echo "[+] Updating system and installing dependencies..."
 sudo apt update && sudo apt upgrade -y
