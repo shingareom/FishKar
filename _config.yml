@@ -2,9 +2,8 @@
 title: "FishKar"
 description: "A no-nonsense productivity tool for Fish shell"
 color_scheme: dark
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
-
 # Navigation Sidebar
 nav_order: 1
 nav:
