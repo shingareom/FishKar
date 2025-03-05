@@ -1,24 +1,30 @@
 
+/* Dark Theme */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
 }
 
 /* Sidebar Styling */
 .sidebar {
     width: 250px;
-    background-color: #222;
-    color: white;
+    background-color: #1e1e1e;
     padding: 20px;
     height: 100vh;
     position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 5px rgba(255, 255, 255, 0.1);
 }
 
 .sidebar h2 {
     text-align: center;
+    color: #ffffff;
 }
 
 .sidebar ul {
@@ -31,19 +37,37 @@ body {
 }
 
 .sidebar ul li a {
-    color: white;
+    color: #bbbbbb;
     text-decoration: none;
     display: block;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 .sidebar ul li a:hover {
-    background-color: #444;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 /* Main Content Styling */
 .content {
-    margin-left: 260px; /* Adjust for sidebar width */
+    margin-left: 270px; /* Space for the sidebar */
     padding: 20px;
     max-width: 800px;
     text-align: justify;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #ffcc00;
+}
+
+/* Links */
+a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
