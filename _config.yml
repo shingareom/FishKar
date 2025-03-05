@@ -4,6 +4,7 @@ description: "A simple Jekyll blog"
 baseurl: "" # Leave blank if deploying to root
 url: "https://shingareom.github.io/FishKar"
 
+remote_theme: pmarsceill/just-the-docs
 include:
   - README.test
 
