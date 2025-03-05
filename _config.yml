@@ -1,14 +1,21 @@
 
-title: "My Jekyll Site"
-description: "A simple Jekyll blog"
-baseurl: "" # Leave blank if deploying to root
-url: "https://shingareom.github.io/FishKar"
+title: "FishKar"
+description: "A no-nonsense productivity tool for Fish shell"
+color_scheme: dark
+theme: just-the-docs
+color_scheme: dark
 
-remote_theme: pmarsceill/just-the-docs
-include:
-  - README.test
+# Navigation Sidebar
+nav_order: 1
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Installation"
+    url: "/installation"
+  - title: "Usage"
+    url: "/usage"
 
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# Search Feature
+search_enabled: true
