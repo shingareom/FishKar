@@ -17,4 +17,10 @@ Save the script as `setup.sh`, then:
 chmod +x setup.sh
 ./setup.sh
 ```
+
+### ToDo
+- Need to improve the web docs
+- Need to add more productivity tools
+- This repo is open for contribution, please go ahead and contribute in it
+
 Boom. **Your system is now optimized, clean, and fast.** No excuses left.
