@@ -1,0 +1,30 @@
+
+# Jekyll temporary files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# Logs and temp files
+*.log
+*.gem
+*.swp
+*.swo
+*.bak
+*.tmp
+*.pid
+
+# Dependency files
+Gemfile.lock
+node_modules/
+package-lock.json
+yarn.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
